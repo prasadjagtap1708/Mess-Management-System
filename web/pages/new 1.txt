@@ -1,0 +1,48 @@
+<form action="http://localhost:37470/FlatBookingSystem/jsp/ProjectCreationProcess.jsp">
+			<fieldset>
+				<legend>PROJECT CREATION</legend>
+				
+				<div class="half-width">
+					<label for="projno">Project NO</label>
+					<input type="text" id="projno" name="projno">
+				</div>
+				
+				<div class="half-width">
+					<label for="userEmail">Project Name</label>
+					<input type="text" id="projname" name="projname">
+				</div>
+				
+				<div class="half-width">
+					<label for="userPassword">Address</label>
+					<input type="text" id="projadd" name="projadd">
+				</div>
+				
+				<div class="half-width">
+					<label for="userPasswordRepeat">City Servey NO</label>
+					<input type="text" id="citysr" name="citysr">
+				</div>
+			
+
+				<div class="half-width">
+					<label for="userPasswordRepeat">Completion Status</label>
+					<input type="text" id="status" name="status">
+				</div>
+				
+				<div class="half-width">
+					<label for="userPasswordRepeat">Start Date</label>
+					<input type="text" id="data" name="date">
+				</div>
+			
+			    <div class="half-width">
+					<label for="userPasswordRepeat">End Date</label>
+					<input type="text" id="date" name="date">
+				</div>									
+			<fieldset>
+				<div>
+					<input type="submit" value="Save">
+				</div>
+				<div>
+					<input type="submit" value="Cancel">
+				</div>
+			</fieldset>
+		</form>
